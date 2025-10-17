@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="System Architecture Diagram">
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <g font-family="Inter, Arial" font-size="13" fill="#111827" stroke="#cbd5e1" stroke-width="1">
+    <rect id="cloudfront" x="40" y="40" width="200" height="60" fill="#f8fafc"/>
+    <text x="60" y="75">CloudFront (CDN)</text>
+
+    <rect id="route53" x="260" y="40" width="200" height="60" fill="#f8fafc"/>
+    <text x="280" y="75">Route53 (DNS)</text>
+
+    <rect id="waf" x="480" y="40" width="200" height="60" fill="#f8fafc"/>
+    <text x="510" y="75">WAF</text>
+
+    <rect id="alb" x="700" y="40" width="200" height="60" fill="#f8fafc"/>
+    <text x="740" y="75">ALB</text>
+
+    <rect id="app" x="40" y="140" width="280" height="80" fill="#eef2ff"/>
+    <text x="60" y="185">Frontend (Next.js static)</text>
+
+    <rect id="orchestrator" x="360" y="140" width="240" height="80" fill="#eef2ff"/>
+    <text x="380" y="185">Synthesis Layer / Orchestrator</text>
+
+    <rect id="qdrant" x="640" y="140" width="160" height="80" fill="#ecfeff"/>
+    <text x="660" y="185">Qdrant (Vector)</text>
+
+    <rect id="meili" x="820" y="140" width="160" height="80" fill="#ecfeff"/>
+    <text x="840" y="185">Meilisearch (Lexical)</text>
+
+    <rect id="neo4j" x="1000" y="140" width="160" height="80" fill="#ecfeff"/>
+    <text x="1030" y="185">Graph-R1 (Neo4j)</text>
+
+    <rect id="rds" x="360" y="260" width="200" height="70" fill="#f0fdf4"/>
+    <text x="390" y="300">RDS PostgreSQL</text>
+
+    <rect id="redis" x="580" y="260" width="160" height="70" fill="#f0fdf4"/>
+    <text x="620" y="300">Redis</text>
+
+    <rect id="s3" x="760" y="260" width="180" height="70" fill="#f0fdf4"/>
+    <text x="820" y="300">S3</text>
+
+    <rect id="kms" x="960" y="260" width="160" height="70" fill="#f0fdf4"/>
+    <text x="1010" y="300">KMS</text>
+
+    <rect id="lambda" x="40" y="260" width="200" height="70" fill="#f0fdf4"/>
+    <text x="90" y="300">Lambda</text>
+
+    <rect id="sagemaker" x="40" y="360" width="200" height="70" fill="#fff7ed"/>
+    <text x="80" y="400">SageMaker (InLegalBERT)</text>
+
+    <rect id="secrets" x="260" y="360" width="200" height="70" fill="#fff7ed"/>
+    <text x="300" y="400">Secrets Manager</text>
+
+    <rect id="cloudwatch" x="480" y="360" width="200" height="70" fill="#fff7ed"/>
+    <text x="520" y="400">CloudWatch / X-Ray</text>
+
+    <line x1="140" y1="100" x2="140" y2="140" stroke="#94a3b8"/>
+    <line x1="360" y1="100" x2="360" y2="140" stroke="#94a3b8"/>
+    <line x1="480" y1="100" x2="480" y2="140" stroke="#94a3b8"/>
+    <line x1="700" y1="100" x2="700" y2="140" stroke="#94a3b8"/>
+
+    <line x1="320" y1="180" x2="360" y2="180" stroke="#94a3b8"/>
+    <line x1="600" y1="180" x2="640" y2="180" stroke="#94a3b8"/>
+    <line x1="800" y1="180" x2="820" y2="180" stroke="#94a3b8"/>
+    <line x1="980" y1="180" x2="1000" y2="180" stroke="#94a3b8"/>
+
+    <line x1="480" y1="220" x2="480" y2="260" stroke="#94a3b8"/>
+    <line x1="660" y1="220" x2="660" y2="260" stroke="#94a3b8"/>
+    <line x1="840" y1="220" x2="840" y2="260" stroke="#94a3b8"/>
+    <line x1="1040" y1="220" x2="1040" y2="260" stroke="#94a3b8"/>
+  </g>
+</svg>
