@@ -4,9 +4,9 @@ export default function UseCasesPage() {
       <div className="container-max section-padding">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Use Cases</h1>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">See how theParalegalAssist transforms legal research across different practice areas.</p>
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto">See how Indy Law transforms legal research across different practice areas.</p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <div className="p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
             <div className="w-12 h-12 bg-gradient-to-br from-[#1A237E] to-[#151b63] rounded-xl flex items-center justify-center mb-6">
@@ -17,11 +17,11 @@ export default function UseCasesPage() {
             <h2 className="text-xl font-semibold text-slate-900 mb-3">Litigation Research</h2>
             <p className="text-slate-600 mb-4">Find relevant precedents for complex cases in seconds, not hours.</p>
             <div className="text-sm text-slate-500">
-              <strong>Before:</strong> 6+ hours manually searching through 100+ judgments<br/>
+              <strong>Before:</strong> 6+ hours manually searching through 100+ judgments<br />
               <strong>After:</strong> 15 seconds to find top 10 relevant Supreme Court judgments with citation networks
             </div>
           </div>
-          
+
           <div className="p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
             <div className="w-12 h-12 bg-gradient-to-br from-[#FFA000] to-[#FF8F00] rounded-xl flex items-center justify-center mb-6">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -31,11 +31,11 @@ export default function UseCasesPage() {
             <h2 className="text-xl font-semibold text-slate-900 mb-3">M&A Due Diligence</h2>
             <p className="text-slate-600 mb-4">Check litigation history and risk across jurisdictions efficiently.</p>
             <div className="text-sm text-slate-500">
-              <strong>Query:</strong> &quot;All cases involving [Company Name] in the last 10 years&quot;<br/>
+              <strong>Query:</strong> &quot;All cases involving [Company Name] in the last 10 years&quot;<br />
               <strong>Result:</strong> Comprehensive litigation timeline with risk assessment
             </div>
           </div>
-          
+
           <div className="p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
             <div className="w-12 h-12 bg-gradient-to-br from-[#00897B] to-[#00695C] rounded-xl flex items-center justify-center mb-6">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,11 +45,11 @@ export default function UseCasesPage() {
             <h2 className="text-xl font-semibold text-slate-900 mb-3">Legal Drafting Assistance</h2>
             <p className="text-slate-600 mb-4">Extract ratios and build drafts based on precedent analysis.</p>
             <div className="text-sm text-slate-500">
-              <strong>Workflow:</strong> Query → Review judgments → Extract ratios → Draft petition<br/>
+              <strong>Workflow:</strong> Query → Review judgments → Extract ratios → Draft petition<br />
               <strong>Example:</strong> &quot;Grounds for anticipatory bail in IPC Section 420 cases&quot;
             </div>
           </div>
-          
+
           <div className="p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
             <div className="w-12 h-12 bg-gradient-to-br from-[#7C3AED] to-[#5B21B6] rounded-xl flex items-center justify-center mb-6">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ export default function UseCasesPage() {
             <h2 className="text-xl font-semibold text-slate-900 mb-3">Compliance Tracking</h2>
             <p className="text-slate-600 mb-4">Monitor amendments and judicial interpretations in real-time.</p>
             <div className="text-sm text-slate-500">
-              <strong>Setup:</strong> Premium account with alerts enabled<br/>
+              <strong>Setup:</strong> Premium account with alerts enabled<br />
               <strong>Benefits:</strong> Real-time notifications of new judgments and amendments
             </div>
           </div>

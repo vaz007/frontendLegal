@@ -33,7 +33,7 @@ function ContactForm() {
       <div className="container-max section-padding">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Request a Demo</h1>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">Get a personalized demonstration of theParalegalAssist tailored to your practice area.</p>
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto">Get a personalized demonstration of Indy Law tailored to your practice area.</p>
         </div>
 
         <div className="max-w-2xl mx-auto">
@@ -107,7 +107,7 @@ function ContactForm() {
                   {...register("useCase")}
                   rows={4}
                   className="w-full rounded-lg border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-[#1A237E] focus:border-transparent transition-colors"
-                  placeholder="Tell us about your legal research needs and how you plan to use theParalegalAssist..."
+                  placeholder="Tell us about your legal research needs and how you plan to use Indy Law..."
                 />
               </div>
 
