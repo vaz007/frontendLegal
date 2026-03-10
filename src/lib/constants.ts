@@ -3,9 +3,9 @@ export const siteConfig = {
   tagline: "AI-Powered Legal Research for India",
   domain: "indylaw.in",
   emails: {
-    hello: "admin@theparalegalassist.co.in",
-    support: "admin@theparalegalassist.co.in",
-    sales: "admin@theparalegalassist.co.in",
+    hello: "admin@indylaw.in",
+    support: "admin@indylaw.in",
+    sales: "admin@indylaw.in",
   },
   ctas: {
     primary: "Request Demo",
