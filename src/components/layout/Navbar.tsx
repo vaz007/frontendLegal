@@ -9,15 +9,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="rounded-xl overflow-hidden shadow-sm">
-              <Image src="/images/logo.png" alt="theParalegalAssist logo" width={60} height={18} className="transition-transform group-hover:scale-105" />
+              <Image src="/images/logo.png" alt="indylaw logo" width={60} height={18} className="transition-transform group-hover:scale-105" />
             </div>
           </Link>
-          
+
           <nav className="hidden lg:flex items-center gap-8">
             {siteConfig.nav.map((item) => (
-              <Link 
-                key={item.href} 
-                href={item.href} 
+              <Link
+                key={item.href}
+                href={item.href}
                 className="text-slate-700 hover:text-[#1A237E] font-medium transition-colors duration-200 relative group"
               >
                 {item.label}
@@ -25,13 +25,13 @@ export default function Navbar() {
               </Link>
             ))}
           </nav>
-          
+
           <div className="hidden lg:block">
             <Link href="/contact" className="btn-primary">
               {siteConfig.ctas.primary}
             </Link>
           </div>
-          
+
           {/* Mobile menu button */}
           <button className="lg:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -3,16 +3,16 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white">
       <div className="container-max section-padding">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">About theParalegalAssist</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">About Indy Law</h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">We&apos;re focused on democratizing access to Indian legal knowledge through cutting-edge AI and a modern research experience.</p>
         </div>
-        
+
         <div className="max-w-4xl mx-auto space-y-12">
           <section className="p-8 rounded-2xl border border-slate-200 bg-white">
             <h2 className="text-2xl font-semibold text-slate-900 mb-6">Our Mission</h2>
             <p className="text-slate-700 leading-relaxed">
-              We&apos;re focused on democratizing access to Indian legal knowledge through cutting-edge AI and a modern research experience. 
-              Our platform transforms how legal professionals discover, analyze, and apply case law, making comprehensive legal research 
+              We&apos;re focused on democratizing access to Indian legal knowledge through cutting-edge AI and a modern research experience.
+              Our platform transforms how legal professionals discover, analyze, and apply case law, making comprehensive legal research
               accessible to practitioners across India.
             </p>
           </section>
@@ -20,8 +20,8 @@ export default function AboutPage() {
           <section className="p-8 rounded-2xl border border-slate-200 bg-white">
             <h2 className="text-2xl font-semibold text-slate-900 mb-6">The Problem We Solve</h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Traditional legal research is time-consuming, expensive, and often incomplete. Lawyers spend hours manually searching 
-              through thousands of judgments, risking missed precedents and outdated information. Our AI-powered platform changes this 
+              Traditional legal research is time-consuming, expensive, and often incomplete. Lawyers spend hours manually searching
+              through thousands of judgments, risking missed precedents and outdated information. Our AI-powered platform changes this
               by providing instant, comprehensive, and contextually relevant legal insights.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
@@ -120,8 +120,8 @@ export default function AboutPage() {
           <section className="p-8 rounded-2xl border border-slate-200 bg-white">
             <h2 className="text-2xl font-semibold text-slate-900 mb-6">Our Commitment</h2>
             <p className="text-slate-700 leading-relaxed">
-              We&apos;re committed to maintaining the highest standards of accuracy, privacy, and security. Our platform is designed 
-              with enterprise-grade security features, ensuring that sensitive legal research remains confidential while providing 
+              We&apos;re committed to maintaining the highest standards of accuracy, privacy, and security. Our platform is designed
+              with enterprise-grade security features, ensuring that sensitive legal research remains confidential while providing
               powerful tools for legal professionals to serve their clients better.
             </p>
           </section>

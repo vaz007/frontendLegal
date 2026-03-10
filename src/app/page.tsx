@@ -23,7 +23,7 @@ export default function Home() {
                 View Architecture
               </Link>
             </div>
-            
+
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
               <div className="text-center">
@@ -51,10 +51,10 @@ export default function Home() {
       <section className="section-padding bg-white">
         <div className="container-max">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Choose theParalegalAssist</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Choose Indy Law</h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">Three powerful technologies working together to deliver the most accurate legal research results.</p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
               <div className="w-12 h-12 bg-gradient-to-br from-[#1A237E] to-[#151b63] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -65,7 +65,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Hybrid Search Intelligence</h3>
               <p className="text-slate-600 leading-relaxed">Semantic, lexical, and graph-based reasoning combined to deliver precise results that understand legal concepts, not just keywords.</p>
             </div>
-            
+
             <div className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
               <div className="w-12 h-12 bg-gradient-to-br from-[#FFA000] to-[#FF8F00] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,7 +75,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Enterprise Privacy</h3>
               <p className="text-slate-600 leading-relaxed">Isolated databases, AES-256 encryption, and strict access controls ensure your sensitive legal research remains confidential.</p>
             </div>
-            
+
             <div className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
               <div className="w-12 h-12 bg-gradient-to-br from-[#00897B] to-[#00695C] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,7 +85,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Citation Networks</h3>
               <p className="text-slate-600 leading-relaxed">Visualize case relationships and precedent chains to understand how legal principles evolve over time.</p>
             </div>
-            
+
             <div className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
               <div className="w-12 h-12 bg-gradient-to-br from-[#7C3AED] to-[#5B21B6] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -95,7 +95,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Advanced Filtering</h3>
               <p className="text-slate-600 leading-relaxed">Find the right case faster with hard filters (court, date, judge) and soft filters (relevance, citation count).</p>
             </div>
-            
+
             <div className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
               <div className="w-12 h-12 bg-gradient-to-br from-[#DC2626] to-[#B91C1C] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -105,7 +105,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Multi-LLM Fallback</h3>
               <p className="text-slate-600 leading-relaxed">Intelligent routing between Groq, DeepSeek, and InLegalBERT for optimal speed, accuracy, and cost control.</p>
             </div>
-            
+
             <div className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#1A237E]/20 card-hover">
               <div className="w-12 h-12 bg-gradient-to-br from-[#059669] to-[#047857] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Transform Your Legal Research?</h2>
             <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-              Join 50+ law firms already using theParalegalAssist to research faster, argue smarter, and never miss a critical precedent.
+              Join 50+ law firms already using Indy Law to research faster, argue smarter, and never miss a critical precedent.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/contact" className="bg-white text-[#1A237E] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-slate-100 transition-colors shadow-lg">

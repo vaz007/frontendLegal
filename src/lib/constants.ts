@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "theParalegalAssist",
+  name: "indylaw",
   tagline: "AI-Powered Legal Research for India",
-  domain: "theParalegalAssist.co.in",
+  domain: "indylaw.in",
   emails: {
-    hello: "hello@theparalegalassist.co.in",
-    support: "support@theparalegalassist.co.in",
-    sales: "sales@theparalegalassist.co.in",
+    hello: "admin@theparalegalassist.co.in",
+    support: "admin@theparalegalassist.co.in",
+    sales: "admin@theparalegalassist.co.in",
   },
   ctas: {
     primary: "Request Demo",
@@ -13,7 +13,7 @@ export const siteConfig = {
   },
   nav: [
     { label: "Features", href: "/features" },
-    { label: "Architecture", href: "/architecture" },
+    // { label: "Architecture", href: "/architecture" },
     { label: "Pricing", href: "/pricing" },
     { label: "Security", href: "/security" },
     { label: "Use Cases", href: "/use-cases" },
