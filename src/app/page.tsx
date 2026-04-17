@@ -1,4 +1,8 @@
 import Link from "next/link";
+import DemoVideo from "@/components/sections/DemoVideo";
+import HowItWorks from "@/components/sections/HowItWorks";
+import SocialProof from "@/components/sections/SocialProof";
+import TrustBadges from "@/components/sections/TrustBadges";
 
 export default function Home() {
   return (
@@ -46,6 +50,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Demo Video Section */}
+      <DemoVideo />
+
+      {/* How It Works Section */}
+      <HowItWorks />
 
       {/* Features Section */}
       <section className="section-padding bg-white">
@@ -118,6 +128,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Social Proof Section */}
+      <SocialProof />
+
+      {/* Trust Badges Section */}
+      <TrustBadges />
 
       {/* CTA Section */}
       <section className="section-padding bg-gradient-to-r from-[#1A237E] to-[#151b63]">
