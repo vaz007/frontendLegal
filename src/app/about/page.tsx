@@ -1,4 +1,66 @@
+import TeamCard from "@/components/sections/TeamCard";
+
 export default function AboutPage() {
+  const founders = [
+    {
+      name: "TODO: Founder Name 1",
+      title: "Co-Founder & CEO",
+      bio: "Legal technology visionary with 10+ years of experience in law and AI.",
+      expertise: ["AI/ML", "Legal Tech", "Product Strategy"],
+      linkedInUrl: "https://linkedin.com/in/founder1", // TODO: Update with actual LinkedIn URL
+      avatarPlaceholder: "F1",
+    },
+    {
+      name: "TODO: Founder Name 2",
+      title: "Co-Founder & CTO",
+      bio: "Machine learning engineer focused on NLP for legal applications.",
+      expertise: ["NLP", "Search", "Architecture"],
+      linkedInUrl: "https://linkedin.com/in/founder2", // TODO: Update with actual LinkedIn URL
+      avatarPlaceholder: "F2",
+    },
+    {
+      name: "TODO: Founder Name 3",
+      title: "Co-Founder & COO",
+      bio: "Operations expert building sustainable growth in legal tech.",
+      expertise: ["Operations", "Finance", "Partnerships"],
+      linkedInUrl: "https://linkedin.com/in/founder3", // TODO: Update with actual LinkedIn URL
+      avatarPlaceholder: "F3",
+    },
+  ];
+
+  const teamMembers = [
+    {
+      name: "TODO: Team Member 1",
+      title: "Lead Engineer",
+      expertise: ["Backend", "Infrastructure"],
+    },
+    {
+      name: "TODO: Team Member 2",
+      title: "ML Researcher",
+      expertise: ["Graph ML", "Search", "Optimization"],
+    },
+    {
+      name: "TODO: Team Member 3",
+      title: "Product Manager",
+      expertise: ["Product", "UX", "Legal Domain"],
+    },
+    {
+      name: "TODO: Team Member 4",
+      title: "Legal Consultant",
+      expertise: ["Indian Law", "Case Analysis"],
+    },
+    {
+      name: "TODO: Team Member 5",
+      title: "Full Stack Developer",
+      expertise: ["Frontend", "API", "Integrations"],
+    },
+    {
+      name: "TODO: Team Member 6",
+      title: "Security Engineer",
+      expertise: ["Security", "Compliance", "Encryption"],
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white">
       <div className="container-max section-padding">
@@ -80,40 +142,27 @@ export default function AboutPage() {
             </div>
           </section>
 
-          <section className="p-8 rounded-2xl border border-slate-200 bg-white">
-            <h2 className="text-2xl font-semibold text-slate-900 mb-6">Our Team</h2>
-            <p className="text-slate-700 leading-relaxed mb-6">
-              Our diverse team combines deep legal expertise with cutting-edge technology:
-            </p>
-            <div className="grid md:grid-cols-2 gap-6">
-              <ul className="space-y-3 text-slate-600">
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-[#1A237E]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Legal professionals with decades of Indian law experience
-                </li>
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-[#1A237E]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  AI researchers specializing in natural language processing
-                </li>
-              </ul>
-              <ul className="space-y-3 text-slate-600">
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-[#1A237E]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Technology advisors from leading tech companies
-                </li>
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-[#1A237E]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Data scientists focused on legal corpus analysis
-                </li>
-              </ul>
+          <section>
+            <h2 className="text-2xl font-semibold text-slate-900 mb-8">Our Founders</h2>
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
+              {founders.map((founder) => (
+                <TeamCard
+                  key={founder.name}
+                  {...founder}
+                  isFeatured={true}
+                />
+              ))}
+            </div>
+
+            <h2 className="text-2xl font-semibold text-slate-900 mb-8">Our Team</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {teamMembers.map((member) => (
+                <TeamCard
+                  key={member.name}
+                  {...member}
+                  bio={undefined}
+                />
+              ))}
             </div>
           </section>
 
