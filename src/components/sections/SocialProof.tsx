@@ -4,23 +4,23 @@ export default function SocialProof() {
   const testimonials = [
     {
       id: 1,
-      quote: 'Indy Law has cut our legal research time in half. What used to take hours now takes minutes.',
-      author: 'Rajesh Kumar',
-      title: 'Senior Associate, TechLaw Partners',
+      quote: 'IndyLaw has fundamentally changed how we approach legal research. What used to take hours of manual effort is now done in minutes—with better accuracy.',
+      author: 'Adv. Krushna Wankhade',
+      title: 'Krushna Wankhade',
       // TODO: Add avatar image path if available
     },
     {
       id: 2,
-      quote: 'The accuracy of the search results is remarkable. We discovered precedents we would have missed manually.',
-      author: 'Priya Sharma',
-      title: 'Litigation Director, Corporate Legal Group',
+      quote: 'The depth and precision of results are outstanding. We\'ve uncovered critical precedents that would have been nearly impossible to find manually.',
+      author: 'Adv. Eesha Karnik',
+      title: 'Karnik & Co',
       // TODO: Add avatar image path if available
     },
     {
       id: 3,
-      quote: 'Enterprise-grade security with user-friendly interface. Exactly what we needed for our practice.',
-      author: 'Arjun Desai',
-      title: 'Managing Partner, Constitutional Law Firm',
+      quote: 'A rare combination of enterprise-grade security and an intuitive interface. It integrates seamlessly into our daily workflow.',
+      author: 'Adv. Darpan Bhatia',
+      title: 'Bhatia & Associates',
       // TODO: Add avatar image path if available
     },
   ];
@@ -38,7 +38,7 @@ export default function SocialProof() {
     <section className="section-padding bg-white">
       <div className="container-max">
         {/* Trusted By Section */}
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
               Trusted by Leading Law Firms
@@ -48,7 +48,6 @@ export default function SocialProof() {
             </p>
           </div>
 
-          {/* Logo Grid - TODO: Replace with actual client logos */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {logos.map((logo) => (
               <div
@@ -62,7 +61,7 @@ export default function SocialProof() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Testimonials Section */}
         <div>

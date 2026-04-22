@@ -59,7 +59,7 @@ export default function UseCasesPage() {
             <h2 className="text-xl font-semibold text-slate-900 mb-3">Compliance Tracking</h2>
             <p className="text-slate-600 mb-4">Monitor amendments and judicial interpretations in real-time.</p>
             <div className="text-sm text-slate-500">
-              <strong>Setup:</strong> Premium account with alerts enabled<br />
+              <strong>Setup:</strong> Professional account with alerts enabled<br />
               <strong>Benefits:</strong> Real-time notifications of new judgments and amendments
             </div>
           </div>

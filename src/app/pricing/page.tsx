@@ -8,8 +8,8 @@ export default function PricingPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Simple, Transparent Pricing</h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">Choose the plan that fits your practice. Upgrade or downgrade anytime.</p>
         </div>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <div className="relative p-6 rounded-2xl border border-slate-200 bg-white hover:border-slate-300 card-hover">
             <div className="text-center">
               <h2 className="text-xl font-bold text-slate-900 mb-3">Free</h2>
@@ -42,7 +42,7 @@ export default function PricingPage() {
               <Link href="/contact?tier=Free" className="w-full btn-secondary">Start Free</Link>
             </div>
           </div>
-          
+
           <div className="relative p-6 rounded-2xl border border-slate-200 bg-white hover:border-slate-300 card-hover">
             <div className="text-center">
               <h2 className="text-xl font-bold text-slate-900 mb-3">Professional</h2>
@@ -75,49 +75,6 @@ export default function PricingPage() {
               <Link href="/contact?tier=Professional" className="w-full btn-primary">Start Trial</Link>
             </div>
           </div>
-          
-          <div className="relative p-6 rounded-2xl border-2 border-[#FFA000] bg-white shadow-xl card-hover">
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-              <span className="bg-gradient-to-r from-[#FFA000] to-[#FF8F00] text-white px-3 py-1 rounded-full text-xs font-semibold">Most Popular</span>
-            </div>
-            <div className="text-center">
-              <h2 className="text-xl font-bold text-slate-900 mb-3">Premium</h2>
-              <div className="mb-6">
-                <div className="flex items-baseline justify-center gap-1">
-                  <span className="text-4xl font-bold text-[#1A237E]">₹29,999</span>
-                  <span className="text-slate-500 text-sm">/month</span>
-                </div>
-              </div>
-              <ul className="space-y-3 text-left mb-8">
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-slate-600">Unlimited queries</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-slate-600">Private DB isolation</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-slate-600">Priority support</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-slate-600">API access</span>
-                </li>
-              </ul>
-              <Link href="/contact?tier=Premium" className="w-full btn-primary">Request Demo</Link>
-            </div>
-          </div>
-          
           <div className="relative p-6 rounded-2xl border border-slate-200 bg-white hover:border-slate-300 card-hover">
             <div className="text-center">
               <h2 className="text-xl font-bold text-slate-900 mb-3">Enterprise</h2>
@@ -150,7 +107,7 @@ export default function PricingPage() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-16 text-center">
           <p className="text-slate-600 mb-4">All plans include:</p>
           <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-500">

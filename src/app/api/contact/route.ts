@@ -18,8 +18,8 @@ export async function POST(request: NextRequest) {
 
     // Send confirmation email to user
     const userEmailResult = await resend.emails.send({
-      from: 'Indy Law <onboarding@resend.dev>',
-      to: email,
+      from: 'Indy Law <admin@indylaw.in>',
+      to: email, //  to: ['admin@indylaw.in'],
       subject: 'Demo Request Received - Indy Law',
       html: `
         <div style="font-family: Arial, sans-serif; color: #333;">
@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
 
     // Send notification email to admin
     const adminEmailResult = await resend.emails.send({
-      from: 'Indy Law <onboarding@resend.dev>',
+      from: 'Indy Law <admin@indylaw.in>',
       to: 'admin@indylaw.in',
       subject: `New Demo Request from ${name}`,
       html: `
@@ -72,9 +72,9 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json(
-      { 
+      {
         message: 'Demo request received successfully. Check your email for confirmation.',
-        success: true 
+        success: true
       },
       { status: 200 }
     );

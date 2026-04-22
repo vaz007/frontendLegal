@@ -3,6 +3,29 @@ import DemoVideo from "@/components/sections/DemoVideo";
 import HowItWorks from "@/components/sections/HowItWorks";
 import SocialProof from "@/components/sections/SocialProof";
 import TrustBadges from "@/components/sections/TrustBadges";
+import TeamCard from "@/components/sections/TeamCard";
+
+const teamMembers = [
+  {
+    name: "Ankur Vazirani",
+    title: "Founder & CEO",
+    bio: "Ankur Vazirani is a technical co-founder with 6+ years of experience across platform engineering, backend systems, and cloud architecture. He has architected and built IndyLaw’s platform end-to-end, leading the design of its AI-driven legal research systems, infrastructure, and scalable retrieval architecture. He holds a Master of Computing (AI) from Australian National University and has previously led large-scale distributed systems, infrastructure migrations, and observability platforms in high-growth environments. His expertise lies in building reliable, scalable systems that enable fast, accurate, and efficient access to complex data.",
+    expertise: ["AI/ML", "Product Strategy", "Legal Tech"],
+    linkedInUrl: "#",
+    avatarPlaceholder: "AV",
+    imageUrl: "/team/AV.jpeg",
+    isFeatured: true,
+  },
+  {
+    name: "Adv. Devika Madekar",
+    title: "Head of Legal & Research",
+    bio: "An Advocate practicing before the Bombay High Court with 8+ years of experience in civil and commercial litigation. She has argued multiple matters before the Bombay High Court and has been actively involved in assisting on a substantial body of work comprising more than 30–40 reported and unreported judgments, reflecting consistent exposure to complex litigation and judicial processes. Her work is deeply rooted in legal research and strategic case preparation. Through her experience, she identified critical inefficiencies in traditional legal research, leading her to co-found IndyLaw—an AI-powered platform designed to help legal professionals quickly identify relevant precedents, extract key insights, and build stronger legal arguments. She believes AI should augment legal practice, enabling advocates to focus on strategy, advocacy, and client outcomes.",
+    expertise: ["Law", "Marketing"],
+    linkedInUrl: "https://www.linkedin.com/in/devika-madekar-670125169/",
+    imageUrl: "/team/DM.jpeg",
+    avatarPlaceholder: "DM",
+  },
+];
 
 export default function Home() {
   return (
@@ -23,9 +46,9 @@ export default function Home() {
               <Link href="/contact" className="btn-primary text-lg px-8 py-4">
                 Request Demo
               </Link>
-              <Link href="/architecture" className="btn-secondary text-lg px-8 py-4">
+              {/* <Link href="/architecture" className="btn-secondary text-lg px-8 py-4">
                 View Architecture
-              </Link>
+              </Link> */}
             </div>
 
             {/* Stats */}
@@ -132,6 +155,21 @@ export default function Home() {
       {/* Social Proof Section */}
       <SocialProof />
 
+      {/* Team Section */}
+      <section className="section-padding bg-slate-50">
+        <div className="container-max">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Leadership Team</h2>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto">Combining expertise in Artificial Intelligence and Indian Law to build the future of legal research.</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {teamMembers.map((member, index) => (
+              <TeamCard key={index} {...member} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Trust Badges Section */}
       <TrustBadges />
 
@@ -141,7 +179,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Transform Your Legal Research?</h2>
             <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-              Join 50+ law firms already using Indy Law to research faster, argue smarter, and never miss a critical precedent.
+              Join 5+ law firms already using Indy Law to research faster, argue smarter, and never miss a critical precedent.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/contact" className="bg-white text-[#1A237E] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-slate-100 transition-colors shadow-lg">
