@@ -141,7 +141,6 @@ function ContactForm() {
                   >
                     <option value="Free">Free</option>
                     <option value="Professional">Professional</option>
-                    <option value="Premium">Premium</option>
                     <option value="Enterprise">Enterprise</option>
                   </select>
                 </div>

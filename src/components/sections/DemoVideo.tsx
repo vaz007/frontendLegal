@@ -18,13 +18,7 @@ export default function DemoVideo() {
 
         <div className="max-w-4xl mx-auto">
           <div className="relative w-full pt-[56.25%] rounded-2xl overflow-hidden border border-slate-200 shadow-lg bg-slate-900">
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src={`https://www.youtube.com/embed/${youtubeVideoId}?rel=0`}
-              title="Indy Law Demo"
-              allowFullScreen
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            />
+            <iframe className="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/h-BKdCBQkHw?si=7Yt1W7ix4nZ9OAmH" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
           <p className="text-center text-sm text-slate-500 mt-4">
             {/* TODO: Update with actual video description */}
